@@ -1,0 +1,41 @@
+include "%L" # Include default Composer sequences.
+
+<Multi_key> <g> <a> : "α" # GREEK ALPHA
+<Multi_key> <g> <b> : "β" # GREEK BETA
+<Multi_key> <g> <g> : "γ" # GREEK GAMMA
+
+<Multi_key> <bar> <asciicircum> : "↑" # UPWARDS ARROW
+<Multi_key> <bar> <v> : "↓" # DOWNWARDS ARROW
+<Multi_key> <asciicircum> <bar> : "↑" # UPWARDS ARROW
+<Multi_key> <v> <bar> : "↓" # DOWNWARDS ARROW
+<Multi_key> <Left> <Left> : "←" # U2190
+<Multi_key> <Up> <Up> : "↑" # U2191
+<Multi_key> <Right> <Right> : "→" # U2192
+<Multi_key> <Down> <Down> : "↓" # U2193
+<Multi_key> <Left> <Right> : "↔️" # U2194
+<Multi_key> <Right> <Left> : "↔️" # U2194
+<Multi_key> <Up> <Down> : "↕️" # U2195
+<Multi_key> <Down> <Up> : "↕️" # U2195
+<Multi_key> <Up> <Left> : "↖️" # U2196
+<Multi_key> <Left> <Up> : "↖️" # U2196
+<Multi_key> <Up> <Right> : "↗️" # U2197
+<Multi_key> <Right> <Up> : "↗️" # U2197
+<Multi_key> <Down> <Right> : "↘️" # U2198
+<Multi_key> <Right> <Down> : "↘️" # U2198
+<Multi_key> <Down> <Left> : "↙️" # U2199
+<Multi_key> <Left> <Down> : "↙️" # U2199
+
+<Multi_key> <l> <f> : "( ͡° ͜ʖ ͡°)" # LENNYFACE
+<Multi_key> <t> <f> : "(ﾉಥ益ಥ）ﾉ彡┻━┻" # TABLEFACE
+<Multi_key> <s> <f> : "¯\\_(ツ)_/¯" # SHRUGFACE
+<Multi_key> <w> <f> : "┬┴┬┴┤ ͜ʖ ͡°) ├┬┴┬┴" # WALLFACE
+<Multi_key> <parenleft> <t> <u> <parenright> : "㋡" # U32E1 CIRCLED KATAKANA TU
+
+<Multi_key> <Cyrillic_u> <Cyrillic_u> : "ѫ" # CYRILLIC SMALL BIG YUS
+<Multi_key> <Cyrillic_U> <Cyrillic_U> : "Ѫ" # CYRILLIC CAPITAL BIG YUS
+<Multi_key> <Cyrillic_ya> <Cyrillic_ya> : "ѧ" # CYRILLIC SMALL SMALL YUS
+<Multi_key> <Cyrillic_YA> <Cyrillic_YA> : "Ѧ" # CYRILLIC CAPITAL SMALL YUS
+<Multi_key> <Ukrainian_i> <Cyrillic_a> : "ꙗ" # CYRILLIC SMALL IOTATED A
+<Multi_key> <Ukrainian_I> <Cyrillic_a> : "Ꙗ" # CYRILLIC CAPITAL IOTATED A
+<Multi_key> <Ukrainian_i> <Ukrainian_ie> : "ѥ" # CYRILLIC SMALL IOTATED E
+<Multi_key> <Ukrainian_I> <Ukrainian_IE> : "Ѥ" # CYRILLIC CAPITAL IOTATED E
