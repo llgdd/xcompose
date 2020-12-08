@@ -1,13 +1,17 @@
 include "%L" # Include default Composer sequences.
 
+# Greek
 <Multi_key> <g> <a> : "α" # GREEK ALPHA
 <Multi_key> <g> <b> : "β" # GREEK BETA
 <Multi_key> <g> <g> : "γ" # GREEK GAMMA
 
+# Vertical arrows to roughly match default ⎄-> and ⎄<-
 <Multi_key> <bar> <asciicircum> : "↑" # UPWARDS ARROW
 <Multi_key> <bar> <v> : "↓" # DOWNWARDS ARROW
 <Multi_key> <asciicircum> <bar> : "↑" # UPWARDS ARROW
 <Multi_key> <v> <bar> : "↓" # DOWNWARDS ARROW
+
+# Arrows (may not work in some apps!)
 <Multi_key> <Left> <Left> : "←" # U2190
 <Multi_key> <Up> <Up> : "↑" # U2191
 <Multi_key> <Right> <Right> : "→" # U2192
@@ -25,12 +29,40 @@ include "%L" # Include default Composer sequences.
 <Multi_key> <Down> <Left> : "↙️" # U2199
 <Multi_key> <Left> <Down> : "↙️" # U2199
 
+# Math
+<Multi_key> <asciitilde> <asciitilde> : "≈" # ALMOST EQUAL TO
+<Multi_key> <asciitilde> <equal> : "≈" # ALMOST EQUAL TO
+
+# Emoticons
 <Multi_key> <l> <f> : "( ͡° ͜ʖ ͡°)" # LENNYFACE
 <Multi_key> <t> <f> : "(ﾉಥ益ಥ）ﾉ彡┻━┻" # TABLEFACE
 <Multi_key> <s> <f> : "¯\\_(ツ)_/¯" # SHRUGFACE
 <Multi_key> <w> <f> : "┬┴┬┴┤ ͜ʖ ͡°) ├┬┴┬┴" # WALLFACE
 <Multi_key> <parenleft> <t> <u> <parenright> : "㋡" # U32E1 CIRCLED KATAKANA TU
 
+# Maksymovychivka
+<Multi_key> <Cyrillic_o> <greater> : "ô" # LATIN SMALL O WITH CIRCUMFLEX ABOVE
+<Multi_key> <Cyrillic_O> <greater> : "Ô" # LATIN CAPITAL O WITH CIRCUMFLEX ABOVE
+<Multi_key> <greater> <Cyrillic_o> : "ô" # LATIN SMALL O WITH CIRCUMFLEX ABOVE
+<Multi_key> <greater> <Cyrillic_O> : "Ô" # LATIN CAPITAL O WITH CIRCUMFLEX ABOVE
+<Multi_key> <Cyrillic_i> <greater> : "и̂" # CYRILLIC SMALL I WITH COMBINING CIRCUMFLEX ABOVE
+<Multi_key> <Cyrillic_I> <greater> : "И̂" # CYRILLIC CAPITAL I WITH COMBINING CIRCUMFLEX ABOVE
+<Multi_key> <greater> <Cyrillic_i> : "и̂" # CYRILLIC SMALL I WITH COMBINING CIRCUMFLEX ABOVE
+<Multi_key> <greater> <Cyrillic_I> : "И̂" # CYRILLIC CAPITAL I WITH COMBINING CIRCUMFLEX ABOVE
+<Multi_key> <Cyrillic_ie> <greater> : "е̂" # CYRILLIC SMALL E WITH COMBINING CIRCUMFLEX ABOVE
+<Multi_key> <Cyrillic_IE> <greater> : "Е̂" # CYRILLIC CAPITAL E WITH COMBINING CIRCUMFLEX ABOVE
+<Multi_key> <greater> <Cyrillic_ie> : "е̂" # CYRILLIC SMALL E WITH COMBINING CIRCUMFLEX ABOVE
+<Multi_key> <greater> <Cyrillic_IE> : "Е̂" # CYRILLIC CAPITAL E WITH COMBINING CIRCUMFLEX ABOVE
+
+# Drahomanivka
+<Multi_key> <Cyrillic_shorti> <Cyrillic_shorti> : "ј" # CYRILLIC SMALL JE
+<Multi_key> <Cyrillic_SHORTI> <Cyrillic_SHORTI> : "Ј" # CYRILLIC CAPITAL JE
+<Multi_key> <Cyrillic_en> <Cyrillic_softsign> : "њ" # CYRILLIC SMALL NJE
+<Multi_key> <Cyrillic_EN> <Cyrillic_SOFTSIGN> : "Њ" # CYRILLIC CAPITAL NJE
+<Multi_key> <Cyrillic_el> <Cyrillic_softsign> : "љ" # CYRILLIC SMALL LJE
+<Multi_key> <Cyrillic_EL> <Cyrillic_SOFTSIGN> : "Љ" # CYRILLIC CAPITAL LJE
+
+# Archaic Cyrillic
 <Multi_key> <Cyrillic_u> <Cyrillic_u> : "ѫ" # CYRILLIC SMALL BIG YUS
 <Multi_key> <Cyrillic_U> <Cyrillic_U> : "Ѫ" # CYRILLIC CAPITAL BIG YUS
 <Multi_key> <Cyrillic_ya> <Cyrillic_ya> : "ѧ" # CYRILLIC SMALL SMALL YUS
@@ -39,3 +71,13 @@ include "%L" # Include default Composer sequences.
 <Multi_key> <Ukrainian_I> <Cyrillic_a> : "Ꙗ" # CYRILLIC CAPITAL IOTATED A
 <Multi_key> <Ukrainian_i> <Ukrainian_ie> : "ѥ" # CYRILLIC SMALL IOTATED E
 <Multi_key> <Ukrainian_I> <Ukrainian_IE> : "Ѥ" # CYRILLIC CAPITAL IOTATED E
+
+# Cyrillic Extras
+<Multi_key> <7> <o> : "ꙮ" # MULTIOCULAR O
+<Multi_key> <7> <O> : "ꙮ" # MULTIOCULAR O
+<Multi_key> <7> <Cyrillic_o> : "ꙮ" # MULTIOCULAR O
+<Multi_key> <7> <Cyrillic_O> : "ꙮ" # MULTIOCULAR O
+<Multi_key> <o> <7> : "ꙮ" # MULTIOCULAR O
+<Multi_key> <O> <7> : "ꙮ" # MULTIOCULAR O
+<Multi_key> <Cyrillic_o> <7> : "ꙮ" # MULTIOCULAR O
+<Multi_key> <Cyrillic_O> <7> : "ꙮ" # MULTIOCULAR O
