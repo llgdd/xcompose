@@ -29,6 +29,13 @@ include "%L" # Include default Composer sequences.
 <Multi_key> <Down> <Left> : "↙️" # U2199
 <Multi_key> <Left> <Down> : "↙️" # U2199
 
+# Mac-like Modifier keys
+<Multi_key> <M> <C> : "⌘" # Command
+<Multi_key> <M> <c> : "⌃" # Control
+<Multi_key> <M> <o> : "⌥" # Option
+<Multi_key> <M> <s> : "⇧" # Shift
+<Multi_key> <M> <S> : "⇪" # Caps Lock
+
 # Math
 <Multi_key> <asciitilde> <asciitilde> : "≈" # ALMOST EQUAL TO
 <Multi_key> <asciitilde> <equal> : "≈" # ALMOST EQUAL TO
