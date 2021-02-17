@@ -4,13 +4,22 @@ One .XCompose to rule them all.
 ### How to use
 Clone this repo:
 ```bash
-$ git clone https://github.com/llgdd/xcompose
+git clone https://github.com/llgdd/xcompose
 ```
 
-CD into it and copy .XCompose over to your home directory:
+Enter to the folder of repro:
 ```bash
-$ cd xcompose
-$ cp .XCompose ~/
+cd xcompose
+```
+
+And copy `.XCompose` each time after update over to your home directory:
+```bash
+cp .XCompose ~/
+```
+
+Or create once link there:
+```bash
+ln -s $PWD/.XCompose ~/.XCompose
 ```
 
 Enable Compose in your systemʼs settings and assign it to a desirable key.
