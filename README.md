@@ -1,25 +1,20 @@
 # xcompose
 One .XCompose to rule them all.
 
-### How to use
-Clone this repo:
+## How to use
+Clone this repo and enter the directory you clone it into:
 ```bash
-git clone https://github.com/llgdd/xcompose
+git clone https://github.com/llgdd/xcompose && cd xcompose
 ```
 
-Enter to the folder of repro:
+Copy `.XCompose` to your home directory every time thereʼs an update:
 ```bash
-cd xcompose
+cp .XCompose $HOME/
 ```
 
-And copy `.XCompose` each time after update over to your home directory:
+Alternatively, symlink it there just this once:
 ```bash
-cp .XCompose ~/
-```
-
-Or create once link there:
-```bash
-ln -s $PWD/.XCompose ~/.XCompose
+ln -s .XCompose $HOME/.XCompose
 ```
 
 Enable Compose in your systemʼs settings and assign it to a desirable key.

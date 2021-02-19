@@ -220,7 +220,7 @@ include "%L" # Load default sequences.
 <Multi_key> <Cyrillic_el> <Cyrillic_shorti> : "ј" U0458 # CYRILLIC SMALL LETTER JE Used in Serbian, Macedonian, Azerbaijani, Altay, and Kildin Sami. Borrowed from Latin to replace the many iotated letters in Cyrillic. Placed before К.
 <Multi_key> <Cyrillic_EL> <Cyrillic_SOFTSIGN> : "Љ" U0409 # CYRILLIC CAPITAL LETTER LJE
 <Multi_key> <Cyrillic_EL> <Cyrillic_softsign> : "Љ" U0409
-<Multi_key> <Cyrillic_el> <Cyrillic_softsign> : : "љ" U0459 # CYRILLIC SMALL LETTER LJE Used in Serbian and Macedonian. Ligature of Л and the Russian ь. Considered a separate letter, placed after Л.
+<Multi_key> <Cyrillic_el> <Cyrillic_softsign> : "љ" U0459 # CYRILLIC SMALL LETTER LJE Used in Serbian and Macedonian. Ligature of Л and the Russian ь. Considered a separate letter, placed after Л.
 <Multi_key> <Cyrillic_EN> <Cyrillic_SOFTSIGN> : "Њ" U040A # CYRILLIC CAPITAL LETTER NJE
 <Multi_key> <Cyrillic_EN> <Cyrillic_softsign> : "Њ" U040A
 <Multi_key> <Cyrillic_en> <Cyrillic_softsign> : "њ" U045A # CYRILLIC SMALL LETTER NJE Used in Serbian and Macedonian. Ligature of Н and the Russian ь. Considered a separate letter, placed after Н.
