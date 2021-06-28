@@ -42,6 +42,11 @@ include "%L" # Load default sequences.
 <dead_ogonek> <space> : "̨" U0328
 <dead_tilde> <space> : "̃" U0303
 
+# below
+<dead_acute> <b> <space> : "̗" U0317
+<dead_grave> <b> <space> : "̖" U0316
+<dead_invertedbreve> <b> <space> : "̯" U032F
+
 # double length
 <dead_belowbreve> <2> <space> : "͜" U035C
 <dead_belowmacron> <2> <space> : "͟" U035F
