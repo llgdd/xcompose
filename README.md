@@ -14,7 +14,7 @@ cp .XCompose $HOME/
 
 Alternatively, symlink it there just this once:
 ```bash
-ln -s .XCompose $HOME/.XCompose
+ln -s $PWD/.XCompose $HOME/.XCompose
 ```
 
 Enable Compose in your systemʼs settings and assign it to a desirable key.

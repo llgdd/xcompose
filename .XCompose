@@ -250,28 +250,27 @@ include "%L" # Load default sequences.
 <Multi_key> <Ukrainian_I> <Cyrillic_IE> : "Ѥ" U0464 # CYRILLIC CAPITAL LETTER IOTIFIED E
 <Multi_key> <Ukrainian_I> <Cyrillic_ie> : "Ѥ" U0464
 <Multi_key> <Ukrainian_i> <Cyrillic_ie>  : "ѥ" U0465 # CYRILLIC SMALL LETTER IOTIFIED E
-# : "Ѧ" U0466 # CYRILLIC CAPITAL LETTER LITTLE YUS
-# : "ѧ" U0467 # CYRILLIC SMALL LETTER LITTLE YUS Used in the early Cyrillic and Glagolitic alphabets.
-<Multi_key> <Cyrillic_YA> <Cyrillic_YA> : "Ѧ" # CYRILLIC CAPITAL SMALL YUS
-<Multi_key> <Cyrillic_ya> <Cyrillic_ya> : "ѧ" # CYRILLIC SMALL SMALL YUS
-# : "Ѩ" U0468 # CYRILLIC CAPITAL LETTER IOTIFIED LITTLE YUS
-# : "ѩ" U0469 # CYRILLIC SMALL LETTER IOTIFIED LITTLE YUS
-# : "Ѫ" U046A # CYRILLIC CAPITAL LETTER BIG YUS
-# : "ѫ" U046B # CYRILLIC SMALL LETTER BIG YUS
-<Multi_key> <Cyrillic_U> <Cyrillic_U> : "Ѫ" # CYRILLIC CAPITAL BIG YUS
-<Multi_key> <Cyrillic_u> <Cyrillic_u> : "ѫ" # CYRILLIC SMALL BIG YUS
-# : "Ѭ" U046C # CYRILLIC CAPITAL LETTER IOTIFIED BIG YUS
-# : "ѭ" U046D # CYRILLIC SMALL LETTER IOTIFIED BIG YUS
+<Multi_key> <Cyrillic_A> <Cyrillic_A> : "Ѧ" U0466 # CYRILLIC CAPITAL SMALL YUS
+<Multi_key> <Cyrillic_A> <Cyrillic_a> : "Ѧ" U0466
+<Multi_key> <Cyrillic_a> <Cyrillic_a> : "ѧ" U0467 # CYRILLIC SMALL SMALL YUS
+<Multi_key> <Cyrillic_YA> <Cyrillic_YA> : "Ѩ" U0468 # CYRILLIC CAPITAL LETTER IOTIFIED LITTLE YUS
+<Multi_key> <Cyrillic_YA> <Cyrillic_ya> : "Ѩ" U0468
+<Multi_key> <Cyrillic_ya> <Cyrillic_ya> : "ѩ" U0469 # CYRILLIC SMALL LETTER IOTIFIED LITTLE YUS
+<Multi_key> <Cyrillic_U> <Cyrillic_U> : "Ѫ" U046A # CYRILLIC CAPITAL BIG YUS
+<Multi_key> <Cyrillic_U> <Cyrillic_u> : "Ѫ" U046A
+<Multi_key> <Cyrillic_u> <Cyrillic_u> : "ѫ" U046A # CYRILLIC SMALL BIG YUS
+<Multi_key> <Cyrillic_YU> <Cyrillic_YU> : "Ѭ" U046C # CYRILLIC CAPITAL LETTER IOTIFIED BIG YUS
+<Multi_key> <Cyrillic_YA> <Cyrillic_yu> : "Ѭ" U046C
+<Multi_key> <Cyrillic_yu> <Cyrillic_yu> : "ѭ" U046D # CYRILLIC SMALL LETTER IOTIFIED BIG YUS
 <Multi_key> <Cyrillic_KA> <Cyrillic_ES> : "Ѯ" U046E # CYRILLIC CAPITAL LETTER KSI
 <Multi_key> <Cyrillic_KA> <Cyrillic_es> : "Ѯ" U046E
 <Multi_key> <Cyrillic_ka> <Cyrillic_es> : "ѯ" U046F # CYRILLIC SMALL LETTER KSI From the Greek letter Ξ ξ.
 <Multi_key> <Cyrillic_PE> <Cyrillic_ES> : "Ѱ" U0470 # CYRILLIC CAPITAL LETTER PSI
 <Multi_key> <Cyrillic_PE> <Cyrillic_es> : "Ѱ" U0470
-<Multi_key> <Cyrillic_pe> <Cyrillic_es>  : "ѱ" U0471 # CYRILLIC SMALL LETTER PSI From the Greek letter Ψ ψ.
-# : "Ѳ" U0472 # CYRILLIC CAPITAL LETTER FITA
-# : "ѳ" U0473 # CYRILLIC SMALL LETTER FITA From the Greek letter Θ θ.
-<Multi_key> <Cyrillic_EF> <Cyrillic_EF> : "Ѳ"
-<Multi_key> <Cyrillic_ef> <Cyrillic_ef> : "ѳ"
+<Multi_key> <Cyrillic_pe> <Cyrillic_es> : "ѱ" U0471 # CYRILLIC SMALL LETTER PSI From the Greek letter Ψ ψ.
+<Multi_key> <Cyrillic_EF> <Cyrillic_EF> : "Ѳ" U0472 # "Ѳ" U0472 # CYRILLIC CAPITAL LETTER FITA
+<Multi_key> <Cyrillic_EF> <Cyrillic_ef> : "Ѳ" U0472 # "ѳ" U0473 # CYRILLIC SMALL LETTER FITA From the Greek letter Θ θ.
+<Multi_key> <Cyrillic_ef> <Cyrillic_ef> : "ѳ" U0473
 # : "Ѵ" U0474 # CYRILLIC CAPITAL LETTER IZHITSA
 # : "ѵ" U0475 # CYRILLIC SMALL LETTER IZHITSA From the Greek letter Υ υ or Glagolitic Ⱛ ⱛ.
 # : "Ѷ" U0476 # CYRILLIC CAPITAL LETTER IZHITSA WITH DOUBLE GRAVE ACCENT 0474 030F
@@ -288,14 +287,14 @@ include "%L" # Load default sequences.
 # : "ҁ" U0481 # CYRILLIC SMALL LETTER KOPPA From the ancient Greek Ϙ
 
 # Historic miscellaneous
-# : "҂" U0482 # CYRILLIC THOUSANDS SIGN
+<Multi_key> <Cyrillic_ka> <1> <0> <0> <0> : "҂" U0482 # CYRILLIC THOUSANDS SIGN
 # : "҃" U0483 # COMBINING CYRILLIC TITLO * not used with letter titlos
 <Multi_key> <Cyrillic_softsign> <space> : "҄" U0484 # COMBINING CYRILLIC PALATALIZATION
 # : "҅" U0485 # COMBINING CYRILLIC DASIA PNEUMATA
 # : "҆" U0486 # COMBINING CYRILLIC PSILI PNEUMATA
 # : "҇" U0487 # COMBINING CYRILLIC POKRYTIE * used only with letter titlos
-<Multi_key> <Cyrillic_ka> <1> <0> <0> <Cyrillic_te> : "҈" U0488 # COMBINING CYRILLIC HUNDRED THOUSANDS SIGN * use 20DD for ten thousands sign
-<Multi_key> <Cyrillic_ka> <1> <Cyrillic_em> : "҉" U0489 # COMBINING CYRILLIC MILLIONS SIGN
+<Multi_key> <Cyrillic_ka> <1> <0> <0> <Cyrillic_te> :  "҈" U0488 # COMBINING CYRILLIC HUNDRED THOUSANDS SIGN * use 20DD for ten thousands sign
+<Multi_key> <Cyrillic_ka> <1> <Cyrillic_em> :  "҉" U0489 # COMBINING CYRILLIC MILLIONS SIGN
 
 # Extended Cyrillic
 # : "Ҋ" U048A # CYRILLIC CAPITAL LETTER SHORT I WITH TAIL
@@ -576,8 +575,9 @@ include "%L" # Load default sequences.
 # : "ꙇ" UA647 # CYRILLIC SMALL LETTER IOTA
 # : "Ꙉ" UA648 # CYRILLIC CAPITAL LETTER DJERV
 # : "ꙉ" UA649 # CYRILLIC SMALL LETTER DJERV
-# : "Ꙋ" UA64A # CYRILLIC CAPITAL LETTER MONOGRAPH UK
-# : "ꙋ" UA64B # CYRILLIC SMALL LETTER MONOGRAPH UK
+<Multi_key> <Cyrillic_U> <Cyrillic_KA> : "Ꙋ" UA64A # CYRILLIC CAPITAL LETTER MONOGRAPH UK
+<Multi_key> <Cyrillic_U> <Cyrillic_ka> : "Ꙋ" UA64A # CYRILLIC CAPITAL LETTER MONOGRAPH UK
+<Multi_key> <Ukrainian_u> <Cyrillic_k> : "ꙋ" UA64B # CYRILLIC SMALL LETTER MONOGRAPH UK
 # : "Ꙍ" UA64C # CYRILLIC CAPITAL LETTER BROAD OMEGA
 # : "ꙍ" UA64D # CYRILLIC SMALL LETTER BROAD OMEGA
 # : "Ꙏ" UA64E # CYRILLIC CAPITAL LETTER NEUTRAL YER
