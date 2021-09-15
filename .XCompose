@@ -577,7 +577,7 @@ include "%L" # Load default sequences.
 # : "ꙉ" UA649 # CYRILLIC SMALL LETTER DJERV
 <Multi_key> <Cyrillic_U> <Cyrillic_KA> : "Ꙋ" UA64A # CYRILLIC CAPITAL LETTER MONOGRAPH UK
 <Multi_key> <Cyrillic_U> <Cyrillic_ka> : "Ꙋ" UA64A # CYRILLIC CAPITAL LETTER MONOGRAPH UK
-<Multi_key> <Ukrainian_u> <Cyrillic_k> : "ꙋ" UA64B # CYRILLIC SMALL LETTER MONOGRAPH UK
+<Multi_key> <Cyrillic_u> <Cyrillic_ka> : "ꙋ" UA64B # CYRILLIC SMALL LETTER MONOGRAPH UK
 # : "Ꙍ" UA64C # CYRILLIC CAPITAL LETTER BROAD OMEGA
 # : "ꙍ" UA64D # CYRILLIC SMALL LETTER BROAD OMEGA
 # : "Ꙏ" UA64E # CYRILLIC CAPITAL LETTER NEUTRAL YER
