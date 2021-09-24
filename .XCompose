@@ -12,6 +12,9 @@ include "%L" # Load default sequences.
 <Multi_key> <w> <f> : "┬┴┬┴┤ ͜ʖ ͡°) ├┬┴┬┴" # Wall face
 <Multi_key> <parenleft> <t> <u> <parenright> : "㋡" # U32E1 CIRCLED KATAKANA TU
 
+### PUNCTUATION
+
+<Multi_key> <minus> <period> : "‑" U2011 # NON-BREAKING HYPHEN
 
 ### SOFT DIACRITICS
 
