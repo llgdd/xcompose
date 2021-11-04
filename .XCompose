@@ -58,6 +58,21 @@ include "%L" # Load default sequences.
 <dead_macron> <2> <space> : "͞" U035E
 <dead_tilde> <2> <space> : "͠" U0360
 
+# Medieval superscript letter diacritics
+<Multi_key> <asciicircum> <asciicircum> <a> : "ͣ" U0363
+<Multi_key> <asciicircum> <asciicircum> <e> : "ͤ" U0364
+<Multi_key> <asciicircum> <asciicircum> <i> : "ͥ" U0365
+<Multi_key> <asciicircum> <asciicircum> <o> : "ͦ" U0366
+<Multi_key> <asciicircum> <asciicircum> <u> : "ͧ" U0367
+<Multi_key> <asciicircum> <asciicircum> <c> : "ͨ" U0368
+<Multi_key> <asciicircum> <asciicircum> <d> : "ͩ" U0369
+<Multi_key> <asciicircum> <asciicircum> <h> : "ͪ" U036A
+<Multi_key> <asciicircum> <asciicircum> <m> : "ͫ" U036B
+<Multi_key> <asciicircum> <asciicircum> <r> : "ͬ" U036C
+<Multi_key> <asciicircum> <asciicircum> <t> : "ͭ" U036D
+<Multi_key> <asciicircum> <asciicircum> <v> : "ͮ" U036E
+<Multi_key> <asciicircum> <asciicircum> <x> : "ͯ" U036F
+
 
 ### ARROWS
 # https://en.wikipedia.org/wiki/Arrows_(Unicode_block)
@@ -524,30 +539,30 @@ include "%L" # Load default sequences.
 # : "⃝" U20DD # COMBINING ENCLOSING CIRCLE = Cyrillic combining ten thousands sign; symbol for myriads
 
 # Old Church Slavonic combining letters
-# : "ⷠ" U2DE0 # COMBINING CYRILLIC LETTER BE
-# : "ⷡ" U2DE1 # COMBINING CYRILLIC LETTER VE
-# : "ⷢ" U2DE2 # COMBINING CYRILLIC LETTER GHE
-# : "ⷣ" U2DE3 # COMBINING CYRILLIC LETTER DE
-# : "ⷤ" U2DE4 # COMBINING CYRILLIC LETTER ZHE
-# : "ⷥ" U2DE5 # COMBINING CYRILLIC LETTER ZE
-# : "ⷦ" U2DE6 # COMBINING CYRILLIC LETTER KA
-# : "ⷧ" U2DE7 # COMBINING CYRILLIC LETTER EL
-# : "ⷨ" U2DE8 # COMBINING CYRILLIC LETTER EM
-# : "ⷩ" U2DE9 # COMBINING CYRILLIC LETTER EN
-# : "ⷪ" U2DEA # COMBINING CYRILLIC LETTER O
-# : "ⷫ" U2DEB # COMBINING CYRILLIC LETTER PE
-# : "ⷬ" U2DEC # COMBINING CYRILLIC LETTER ER
-# : "ⷭ" U2DED # COMBINING CYRILLIC LETTER ES
-# : "ⷮ" U2DEE # COMBINING CYRILLIC LETTER TE
-# : "ⷯ" U2DEF # COMBINING CYRILLIC LETTER HA
+<Multi_key> <asciicircum> <asciicircum> <Cyrillic_be> : "ⷠ" U2DE0 # COMBINING CYRILLIC LETTER BE
+<Multi_key> <asciicircum> <asciicircum> <Cyrillic_ve> : "ⷡ" U2DE1 # COMBINING CYRILLIC LETTER VE
+<Multi_key> <asciicircum> <asciicircum> <Cyrillic_ghe> : "ⷢ" U2DE2 # COMBINING CYRILLIC LETTER GHE
+<Multi_key> <asciicircum> <asciicircum> <Cyrillic_de> : "ⷣ" U2DE3 # COMBINING CYRILLIC LETTER DE
+<Multi_key> <asciicircum> <asciicircum> <Cyrillic_zhe> : "ⷤ" U2DE4 # COMBINING CYRILLIC LETTER ZHE
+<Multi_key> <asciicircum> <asciicircum> <Cyrillic_ze> : "ⷥ" U2DE5 # COMBINING CYRILLIC LETTER ZE
+<Multi_key> <asciicircum> <asciicircum> <Cyrillic_ka> : "ⷦ" U2DE6 # COMBINING CYRILLIC LETTER KA
+<Multi_key> <asciicircum> <asciicircum> <Cyrillic_el> : "ⷧ" U2DE7 # COMBINING CYRILLIC LETTER EL
+<Multi_key> <asciicircum> <asciicircum> <Cyrillic_em> : "ⷨ" U2DE8 # COMBINING CYRILLIC LETTER EM
+<Multi_key> <asciicircum> <asciicircum> <Cyrillic_en> : "ⷩ" U2DE9 # COMBINING CYRILLIC LETTER EN
+<Multi_key> <asciicircum> <asciicircum> <Cyrillic_o> : "ⷪ" U2DEA # COMBINING CYRILLIC LETTER O
+<Multi_key> <asciicircum> <asciicircum> <Cyrillic_pe> : "ⷫ" U2DEB # COMBINING CYRILLIC LETTER PE
+<Multi_key> <asciicircum> <asciicircum> <Cyrillic_er> : "ⷬ" U2DEC # COMBINING CYRILLIC LETTER ER
+<Multi_key> <asciicircum> <asciicircum> <Cyrillic_es> : "ⷭ" U2DED # COMBINING CYRILLIC LETTER ES
+<Multi_key> <asciicircum> <asciicircum> <Cyrillic_te> : "ⷮ" U2DEE # COMBINING CYRILLIC LETTER TE
+<Multi_key> <asciicircum> <asciicircum> <Cyrillic_ha> : "ⷯ" U2DEF # COMBINING CYRILLIC LETTER HA
 # : "ⷰ" U2DF0 # COMBINING CYRILLIC LETTER TSE
 # : "ⷱ" U2DF1 # COMBINING CYRILLIC LETTER CHE
-# : "ⷲ" U2DF2 # COMBINING CYRILLIC LETTER SHA
+<Multi_key> <asciicircum> <asciicircum> <Cyrillic_sha> : "ⷲ" U2DF2 # COMBINING CYRILLIC LETTER SHA
 # : "ⷳ" U2DF3 # COMBINING CYRILLIC LETTER SHCHA
 # : "ⷴ" U2DF4 # COMBINING CYRILLIC LETTER FITA
 # : "ⷵ" U2DF5 # COMBINING CYRILLIC LETTER ES-TE
-# : "ⷶ" U2DF6 # COMBINING CYRILLIC LETTER A
-# : "ⷷ" U2DF7 # COMBINING CYRILLIC LETTER IE
+<Multi_key> <asciicircum> <asciicircum> <Cyrillic_a> : "ⷶ" U2DF6 # COMBINING CYRILLIC LETTER A
+<Multi_key> <asciicircum> <asciicircum> <Cyrillic_ie> : "ⷷ" U2DF7 # COMBINING CYRILLIC LETTER IE
 # : "ⷸ" U2DF8 # COMBINING CYRILLIC LETTER DJERV
 # : "ⷹ" U2DF9 # COMBINING CYRILLIC LETTER MONOGRAPH UK
 # : "ⷺ" U2DFA # COMBINING CYRILLIC LETTER YAT
@@ -557,14 +572,14 @@ include "%L" # Load default sequences.
 # : "ⷾ" U2DFE # COMBINING CYRILLIC LETTER BIG YUS
 # : "ⷿ" U2DFF # COMBINING CYRILLIC LETTER IOTIFIED BIG YUS
 # : "ꙴ" UA674 # COMBINING CYRILLIC LETTER UKRAINIAN IE
-# : "ꙵ" UA675 # COMBINING CYRILLIC LETTER I
+<Multi_key> <asciicircum> <asciicircum> <Cyrillic_i> : "ꙵ" UA675 # COMBINING CYRILLIC LETTER I
 # : "ꙶ" UA676 # COMBINING CYRILLIC LETTER YI
-# : "ꙷ" UA677 # COMBINING CYRILLIC LETTER U
+<Multi_key> <asciicircum> <asciicircum> <Cyrillic_u> : "ꙷ" UA677 # COMBINING CYRILLIC LETTER U
 # : "ꙸ" UA678 # COMBINING CYRILLIC LETTER HARD SIGN
 # : "ꙹ" UA679 # COMBINING CYRILLIC LETTER YERU
-# : "ꙺ" UA67A # COMBINING CYRILLIC LETTER SOFT SIGN
+<Multi_key> <asciicircum> <asciicircum> <Cyrillic_softsign> : "ꙺ" UA67A # COMBINING CYRILLIC LETTER SOFT SIGN
 # : "ꙻ" UA67B # COMBINING CYRILLIC LETTER OMEGA
-# : "ꚞ" UA69E # COMBINING CYRILLIC LETTER EF
+<Multi_key> <asciicircum> <asciicircum> <Cyrillic_ef> : "ꚞ" UA69E # COMBINING CYRILLIC LETTER EF
 # : "ꚟ" UA69F # COMBINING CYRILLIC LETTER IOTIFIED E
 
 # Old Cyrillic
