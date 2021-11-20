@@ -22,4 +22,6 @@ You can usually find Compose-related tweaks in your desktop environmentʼs keybo
 
 Log out and log back in.
 
+If you find out some problem like some combinations do not work then change input method, like [xim](https://unix.stackexchange.com/a/166954/223806) or [ibus](https://desktopi18n.wordpress.com/2019/10/17/ibus-1-5-21-is-released/).
+
 Voilà!
