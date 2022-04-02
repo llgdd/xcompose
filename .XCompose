@@ -73,6 +73,11 @@ include "%L" # Load default sequences.
 <Multi_key> <asciicircum> <asciicircum> <v> : "ͮ" U036E
 <Multi_key> <asciicircum> <asciicircum> <x> : "ͯ" U036F
 
+# Additional
+<Multi_key> <z> <h> : "ʒ" U0292 # LATIN SMALL LETTER EZH
+<Multi_key> <Z> <h> : "Ʒ" U01B7 # LATIN CAPITAL LETTER EZH
+<Multi_key> <Z> <H> : "Ʒ" U01B7 # LATIN CAPITAL LETTER EZH
+<Multi_key> <asciicircum> <j> : "ʲ" U02B2 # MODIFIER LETTER SMALL J
 
 ### ARROWS
 # https://en.wikipedia.org/wiki/Arrows_(Unicode_block)
