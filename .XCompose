@@ -123,6 +123,60 @@ include "%L" # Load default sequences.
 <Multi_key> <M> <s> : "⇧" # Shift key
 <Multi_key> <M> <S> : "⇪" # Caps Lock
 
+### ROMAN NUMERALS
+# https://en.wikipedia.org/wiki/Numerals_in_Unicode
+
+# Note:
+# [k]ilo = X*10³
+# [a]rchaic form
+
+<Multi_key> <R> <1> <space> : "Ⅰ" U2160 # ROMAN NUMERAL ONE
+<Multi_key> <r> <1> <space> : "ⅰ" U2170 # SMALL ROMAN NUMERAL ONE
+<Multi_key> <R> <2> : "Ⅱ" U2161 # ROMAN NUMERAL TWO
+<Multi_key> <r> <2> : "ⅱ" U2171 # SMALL ROMAN NUMERAL TWO
+<Multi_key> <R> <3> : "Ⅲ" U2162 # ROMAN NUMERAL THREE
+<Multi_key> <r> <3> : "ⅲ" U2172 # SMALL ROMAN NUMERAL THREE
+<Multi_key> <R> <4> : "Ⅳ" U2163 # ROMAN NUMERAL FOUR
+<Multi_key> <r> <4> : "ⅳ" U2173 # SMALL ROMAN NUMERAL FOUR
+<Multi_key> <R> <5> <space> : "Ⅴ" U2164 # ROMAN NUMERAL FIVE
+<Multi_key> <r> <5> <space> : "ⅴ" U2174 # SMALL ROMAN NUMERAL FIVE
+<Multi_key> <R> <6> <space> : "Ⅵ" U2165 # ROMAN NUMERAL SIX
+<Multi_key> <r> <6> : "ⅵ" U2175 # SMALL ROMAN NUMERAL SIX
+<Multi_key> <R> <6> <a> : "ↅ" U2185 # ROMAN NUMERAL SIX LATE FORM
+<Multi_key> <R> <7> : "Ⅶ" U2166 # ROMAN NUMERAL SEVEN
+<Multi_key> <r> <7> : "ⅶ" U2176 # SMALL ROMAN NUMERAL SEVEN
+<Multi_key> <R> <8> : "Ⅷ" U2167 # ROMAN NUMERAL EIGHT
+<Multi_key> <r> <8> : "ⅷ" U2177 # SMALL ROMAN NUMERAL EIGHT
+<Multi_key> <R> <9> : "Ⅸ" U2168 # ROMAN NUMERAL NINE
+<Multi_key> <r> <9> : "ⅸ" U2178 # SMALL ROMAN NUMERAL NINE
+
+<Multi_key> <R> <1> <0> <space> : "Ⅹ" U2169 # ROMAN NUMERAL TEN
+<Multi_key> <r> <1> <0> <space> : "ⅹ" U2179 # SMALL ROMAN NUMERAL TEN
+<Multi_key> <R> <1> <1> : "Ⅺ" U216A # ROMAN NUMERAL ELEVEN
+<Multi_key> <r> <1> <1> : "ⅺ" U217A # SMALL ROMAN NUMERAL ELEVEN
+<Multi_key> <R> <1> <2> : "Ⅻ" U216B # ROMAN NUMERAL TWELVE
+<Multi_key> <r> <1> <2> : "ⅻ" U217B # SMALL ROMAN NUMERAL TWELVE
+<Multi_key> <R> <5> <0> <space> : "Ⅼ" U216C # ROMAN NUMERAL FIFTY
+<Multi_key> <r> <5> <0> : "ⅼ" U217C # SMALL ROMAN NUMERAL FIFTY
+<Multi_key> <R> <5> <0> <a> : "ↆ" U2186 # ROMAN NUMERAL FIFTY EARLY FORM
+
+<Multi_key> <R> <1> <0> <0> <space> : "Ⅽ" U216D # ROMAN NUMERAL ONE HUNDRED
+<Multi_key> <r> <1> <0> <0> <space> : "ⅽ" U217D # SMALL ROMAN NUMERAL ONE HUNDRED
+<Multi_key> <R> <1> <0> <0> <a> : "Ↄ" U2183 # ROMAN NUMERAL REVERSED ONE HUNDRED
+<Multi_key> <r> <1> <0> <0> <a> : "ↄ" U2184 # LATIN SMALL LETTER REVERSED C
+<Multi_key> <R> <5> <0> <0> : "Ⅾ" U216E # ROMAN NUMERAL FIVE HUNDRED
+<Multi_key> <r> <5> <0> <0> : "ⅾ" U217E # SMALL ROMAN NUMERAL FIVE HUNDRED
+
+<Multi_key> <R> <1> <k> <space> : "Ⅿ" U216F # ROMAN NUMERAL ONE THOUSAND
+<Multi_key> <r> <1> <k> : "ⅿ" U217F # SMALL ROMAN NUMERAL ONE THOUSAND
+<Multi_key> <R> <1> <k> <a> : "ↀ" U2180 # ROMAN NUMERAL ONE THOUSAND C D
+
+# Only archaic
+<Multi_key> <R> <5> <k> : "ↁ" U2181 # ROMAN NUMERAL FIVE THOUSAND
+<Multi_key> <R> <1> <0> <k> : "ↂ" U2182 # ROMAN NUMERAL TEN THOUSAND
+<Multi_key> <R> <5> <0> <k> : "ↇ" U2187 # ROMAN NUMERAL FIFTY THOUSAND
+<Multi_key> <R> <1> <0> <0> <k> : "ↈ" U2188 # ROMAN NUMERAL ONE HUNDRED THOUSAND
+
 
 ### CYRILLIC
 # https://en.wikipedia.org/wiki/Cyrillic_script_in_Unicode
