@@ -15,6 +15,8 @@ include "%L" # Load default sequences.
 ### PUNCTUATION
 
 <Multi_key> <minus> <period> : "‑" U2011 # NON-BREAKING HYPHEN
+<Multi_key> <less> <parenleft>	: "⟨" U27E8	# MATHEMATICAL LEFT ANGLE BRACKET
+<Multi_key> <greater> <parenright>: "⟩" U27E9	# MATHEMATICAL RIGHT ANGLE BRACKET
 
 ### SOFT DIACRITICS
 
