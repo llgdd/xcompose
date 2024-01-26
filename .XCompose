@@ -386,8 +386,8 @@ include "%L" # Load default sequences.
 <Multi_key> <Cyrillic_EF> <Cyrillic_ef> : "Ѳ" U0472 # CYRILLIC SMALL LETTER FITA From the Greek letter Θ θ.
 <Multi_key> <Cyrillic_ef> <Cyrillic_ef> : "ѳ" U0473
 <Multi_key> <Cyrillic_I> <Cyrillic_I> : "Ѵ" U0474 # CYRILLIC CAPITAL LETTER IZHITSA
-<Multi_key> <Cyrillic_I> <Cyrillic_і> : "Ѵ" U0474
-<Multi_key> <Cyrillic_і> <Cyrillic_і> : "ѵ" U0475 # CYRILLIC SMALL LETTER IZHITSA From the Greek letter Υ υ or Glagolitic Ⱛ ⱛ.
+<Multi_key> <Cyrillic_I> <Cyrillic_i> : "Ѵ" U0474
+<Multi_key> <Cyrillic_і> <Cyrillic_i> : "ѵ" U0475 # CYRILLIC SMALL LETTER IZHITSA From the Greek letter Υ υ or Glagolitic Ⱛ ⱛ.
 # : "Ѷ" U0476 # CYRILLIC CAPITAL LETTER IZHITSA WITH DOUBLE GRAVE ACCENT 0474 030F
 # : "ѷ" U0477 # CYRILLIC SMALL LETTER IZHITSA WITH DOUBLE GRAVE ACCENT 0475 030F
 <Multi_key> <Cyrillic_O> <Cyrillic_u> : "Ѹ" U0478 # CYRILLIC CAPITAL LETTER UK
