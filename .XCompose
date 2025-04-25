@@ -307,7 +307,7 @@ include "%L" # Load default sequences.
 <Multi_key> <Cyrillic_SHA> <Cyrillic_che> : "Щ" U0429
 <Multi_key> <Cyrillic_sha> <Multi_key> <Cyrillic_te> <Cyrillic_sha> : "щ" U0449 # CYRILLIC SMALL LETTER SHCHA
 <Multi_key> <Cyrillic_sha> <Cyrillic_te> : "щ" U0449
-<Multi_key> <Cyrillic_SHA> <Cyrillic_che> : "щ" U0449
+<Multi_key> <Cyrillic_sha> <Cyrillic_che> : "щ" U0449
 # : "Ъ" U042A # CYRILLIC CAPITAL LETTER HARD SIGN
 # : "ъ" U044A # CYRILLIC SMALL LETTER HARD SIGN
 <Multi_key> <Cyrillic_SOFTSIGN> <Ukrainian_I>  : "Ы" U042B # CYRILLIC CAPITAL LETTER YERU
