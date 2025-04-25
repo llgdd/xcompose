@@ -75,11 +75,6 @@ include "%L" # Load default sequences.
 <Multi_key> <asciicircum> <asciicircum> <v> : "ͮ" U036E
 <Multi_key> <asciicircum> <asciicircum> <x> : "ͯ" U036F
 
-# Additional
-<Multi_key> <z> <h> : "ʒ" U0292 # LATIN SMALL LETTER EZH
-<Multi_key> <Z> <h> : "Ʒ" U01B7 # LATIN CAPITAL LETTER EZH
-<Multi_key> <Z> <H> : "Ʒ" U01B7 # LATIN CAPITAL LETTER EZH
-
 
 ### SUPER- & [SUBSCRIPT]
 
@@ -213,6 +208,31 @@ include "%L" # Load default sequences.
 <Multi_key> <R> <1> <0> <k> : "ↂ" U2182 # ROMAN NUMERAL TEN THOUSAND
 <Multi_key> <R> <5> <0> <k> : "ↇ" U2187 # ROMAN NUMERAL FIFTY THOUSAND
 <Multi_key> <R> <1> <0> <0> <k> : "ↈ" U2188 # ROMAN NUMERAL ONE HUNDRED THOUSAND
+
+### IPA
+# https://pecorarista.com/posts/type-ipa.html
+
+<Multi_key> <a> <a> : "ɐ" U0250 # LATIN SMALL LETTER TURNED A
+<Multi_key> <e> <h> : "ɛ" U025B # LATIN SMALL LETTER OPEN E
+<Multi_key> <h> <h> : "ɥ" U0265 # LATIN SMALL LETTER TURNED H
+<Multi_key> <r> <r> : "ɹ" U0279 # LATIN SMALL LETTER TURNED R
+<Multi_key> <s> <h> : "ʃ" U0283 # LATIN SMALL LETTER ESH
+<Multi_key> <v> <v> : "ʌ" U028C # LATIN SMALL LETTER TURNED V
+
+<Multi_key> <asterisk> <g> : "ɣ" U0263 # LATIN SMALL LETTER GAMMA
+<Multi_key> <asterisk> <b> : "β" U03B2 # GREEK SMALL LETTER BETA
+<Multi_key> <asterisk> <p> : "ɸ" U0278 # LATIN SMALL LETTER PHI
+<Multi_key> <asterisk> <t> : "θ" U03B8 # GREEK SMALL LETTER THETA
+<Multi_key> <asterisk> <u> : "ʊ" U028A # LATIN SMALL LETTER UPSILON
+<Multi_key> <asterisk> <x> : "χ" U03C7 # GREEK SMALL LETTER CHI
+
+### LATIN
+
+<Multi_key> <z> <h> : "ʒ" U0292 # LATIN SMALL LETTER EZH
+<Multi_key> <Z> <h> : "Ʒ" U01B7 # LATIN CAPITAL LETTER EZH
+<Multi_key> <Z> <H> : "Ʒ" U01B7 # LATIN CAPITAL LETTER EZH
+<dead_caron> <EZH> : "Ǯ" U01EE # LATIN CAPITAL LETTER EZH WITH CARON
+<dead_caron> <ezh> : "ǯ" U01EF # LATIN SMALL LETTER EZH WITH CARON
 
 
 ### CYRILLIC
@@ -699,6 +719,9 @@ include "%L" # Load default sequences.
 # : "ꙏ" UA64F # CYRILLIC SMALL LETTER NEUTRAL YER
 # : "Ꙑ" UA650 # CYRILLIC CAPITAL LETTER YERU WITH BACK YER
 # : "ꙑ" UA651 # CYRILLIC SMALL LETTER YERU WITH BACK YER
+<Multi_key> <Cyrillic_HARDSIGN> <Ukrainian_I>  : "Ꙑ" UA650 # CYRILLIC CAPITAL LETTER YERU WITH BACK YER
+<Multi_key> <Cyrillic_HARDSIGN> <Ukrainian_i>  : "Ꙑ" UA650
+<Multi_key> <Cyrillic_hardsign> <Ukrainian_i> : "ꙑ" UA651 # CYRILLIC SMALL LETTER YERU WITH BACK YER
 # : "Ꙓ" UA652 # CYRILLIC CAPITAL LETTER IOTIFIED YAT
 # : "ꙓ" UA653 # CYRILLIC SMALL LETTER IOTIFIED YAT
 # : "Ꙕ" UA654 # CYRILLIC CAPITAL LETTER REVERSED YU
