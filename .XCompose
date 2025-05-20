@@ -394,7 +394,6 @@ include "%L" # Load default sequences.
 <Multi_key> <Cyrillic_U> <Cyrillic_u> : "Ѫ" U046A
 <Multi_key> <Cyrillic_u> <Cyrillic_u> : "ѫ" U046A # CYRILLIC SMALL BIG YUS
 <Multi_key> <Cyrillic_YU> <Cyrillic_YU> : "Ѭ" U046C # CYRILLIC CAPITAL LETTER IOTIFIED BIG YUS
-<Multi_key> <Cyrillic_YA> <Cyrillic_yu> : "Ѭ" U046C
 <Multi_key> <Cyrillic_yu> <Cyrillic_yu> : "ѭ" U046D # CYRILLIC SMALL LETTER IOTIFIED BIG YUS
 <Multi_key> <Cyrillic_KA> <Cyrillic_ES> : "Ѯ" U046E # CYRILLIC CAPITAL LETTER KSI
 <Multi_key> <Cyrillic_KA> <Cyrillic_es> : "Ѯ" U046E
